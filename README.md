@@ -12,13 +12,8 @@ an offer, but I kept thinking about this problem.
 
 A brute force solution is to loop through all combinations of 20, 9, and 6 
 until you find all the combinations that work. Once you have this list of
-solutions, can you use this to create a neural network solution?
+solutions, can you use this to train a neural network?
 
-Maybe.
 
-First, let's think of what we know:
-
-1. n = f(a,b,c) = 20a + 9b + 6c
-2. &delta;f/&delta;a = 20 + 9b + 6c 
 
 
