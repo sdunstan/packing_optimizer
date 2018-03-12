@@ -3,7 +3,7 @@ package com.stevedunstan.packing;
 /**
  * Uses depth-first tree fit to find a solution to chicken.
  */
-public class SearchFitter extends Fitter {
+public class SearchFitter implements Fitter {
 
     static int expansionCount = 0;
 

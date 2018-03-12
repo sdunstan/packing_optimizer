@@ -1,6 +1,6 @@
 package com.stevedunstan.packing;
 
-public class BruteForceFitter extends Fitter {
+public class BruteForceFitter implements Fitter {
     static int expansionCount = 0;
 
     public void fit(int count, int[] counts) {
@@ -36,4 +36,8 @@ public class BruteForceFitter extends Fitter {
             return total;
     }
 
+    private int quantity(int[] result) {
+        if (result == null || result.length != 3) return 0;
+        return result[0] * 20 + result[1] * 9 + result[2] * 6;
+    }
 }

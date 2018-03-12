@@ -2,10 +2,11 @@ package com.stevedunstan.packing;
 
 import org.junit.Before;
 
-public class IterativeFitterTest extends FitterTest {
+public class BruteForceFitterTest extends FitterTest {
+
     @Before
     public void init() {
-        fitter = new IterativeFitter();
+        fitter = new BruteForceFitter();
     }
 
 }

@@ -7,14 +7,11 @@ import java.util.Arrays;
 
 import static org.junit.Assert.*;
 
-public class FitterTest {
+public abstract class FitterTest {
 
     protected Fitter fitter;
 
-    @Before
-    public void init() {
-        fitter = new SearchFitter();
-    }
+    public abstract void init();
 
     @Test
     public void fitTest21() {
